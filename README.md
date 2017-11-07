@@ -21,16 +21,16 @@ equipment and economic attacks.
 
 ## Compile and run ##
 
-###/ids/ids.c (PASAD C implementation)###
+/ids/ids.c (C implementation)
 * gcc ids.c -o ids
 * ./ids
 
-###/ids_lib/ids_lib.c (Optimized PASAD C implementation using GSL libraries)###
+/ids_lib/ids_lib.c (Optimized C implementation using GSL libraries)
 * gcc -Wall -o ids_lib ids_lib.c -lgsl -lgslcblas -lm
 * ./ids_lib
 
-###/matlab (Simplified MATLAB implementation)###
+/matlab (Simplified MATLAB implementation)
 
-###/matlab_output (Example output of MATLAB)###
+/matlab_output (Example output of MATLAB)
 * Both implementations in C take as input the files s.txt and U.txt.
 * In this particular example N=2000, L=1000, r=29 and theta=0.0134.

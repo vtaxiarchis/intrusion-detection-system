@@ -15,7 +15,7 @@ motivated adversaries. In this project we study a model free approach called PAS
 Stealthy-Attack Detection) as a choice to detect attacks by monitoring time series of sensor
 measurements. In particular, we evaluate the performance of PASAD, by analyzing its efficiency in
 physically constrained systems. Our main contribution is an efficient implementation of PASAD in
-a low-level programming language and investigating its efficiency when deployed on limited-resource 
+a low-level programming language and investigating its efficiency when deployed on limited-resource
 hardware. We also test the effectiveness of our approach, by evaluating the system against simulated
 equipment and economic attacks.
 
@@ -29,8 +29,8 @@ equipment and economic attacks.
 * gcc -Wall -o ids_lib ids_lib.c -lgsl -lgslcblas -lm
 * ./ids_lib
 
-###/pasad_matlab (PASAD simplified MATLAB implementation)###
+###/matlab (Simplified MATLAB implementation)###
 
-###/pasad_matlab_output (Example output of MATLAB)###
-* Both PASAD implementation in C take as input the files s.txt and U.txt.
+###/matlab_output (Example output of MATLAB)###
+* Both implementations in C take as input the files s.txt and U.txt.
 * In this particular example N=2000, L=1000, r=29 and theta=0.0134.

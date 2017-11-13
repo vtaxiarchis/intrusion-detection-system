@@ -1,6 +1,6 @@
 # README #
 
-Project for "Data-driven Support for Cyber-physical Systems" course.
+Project for "DAT300 - Data-driven Support for Cyber-physical Systems" course.
 
 ## What is this repository for? ##
 

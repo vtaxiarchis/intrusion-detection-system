@@ -4,20 +4,7 @@ Project for "DAT300 - Data-driven Support for Cyber-physical Systems" course.
 
 ## What is this repository for? ##
 
-Industrial Control Systems (ICS) manage critical infrastructure such as water supply systems,
-nuclear and power plants. In the recent past coordinated attacks have been leveled against ICS
-by adversaries with strong motivated intentions and if successful, these attacks have the
-potential to cause catastrophic damages. As a result there is an urgent need for pragmatic tools
-to detect cyber intrusions in ICS. Consequently, traditional anomaly-based network intrusion
-detection techniques are a precious technology to protect ICS against coordinated attacks but are
-not enough to detect and let alone protect ICS from cyber attacks perpetrated by strongly
-motivated adversaries. In this project we study a model free approach called PASAD (Process-Aware
-Stealthy-Attack Detection) as a choice to detect attacks by monitoring time series of sensor
-measurements. In particular, we evaluate the performance of PASAD, by analyzing its efficiency in
-physically constrained systems. Our main contribution is an efficient implementation of PASAD in
-a low-level programming language and investigating its efficiency when deployed on limited-resource
-hardware. We also test the effectiveness of our approach, by evaluating the system against simulated
-equipment and economic attacks.
+Read more about the project [here](https://vtaxiarchis.wordpress.com/projects/ids).
 
 ## Compile and run ##
 

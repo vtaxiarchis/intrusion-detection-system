@@ -9,12 +9,16 @@ Read more about the project [here](https://vtaxiarchis.wordpress.com/projects-id
 ## Compile and run ##
 
 ### /ids/ids.c (C implementation) ###
-* gcc ids.c -o ids
-* ./ids
+```
+gcc ids.c -o ids
+./ids
+```
 
 ### /ids_lib/ids_lib.c (Optimized C implementation using GSL libraries) ###
-* gcc -Wall -o ids_lib ids_lib.c -lgsl -lgslcblas -lm
-* ./ids_lib
+```
+gcc -Wall -o ids_lib ids_lib.c -lgsl -lgslcblas -lm
+./ids_lib
+```
 
 ### /matlab (Simplified MATLAB implementation) ###
 * train_phase.m (MATLAB code for training phase) -> generates s.txt and U.txt

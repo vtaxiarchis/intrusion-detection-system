@@ -4,7 +4,7 @@ Project for "DAT300 - Data-driven Support for Cyber-physical Systems" course.
 
 ## What is this repository for? ##
 
-Read more about the project [here](https://vtaxiarchis.wordpress.com/projects/ids).
+Read more about the project [here](https://vtaxiarchis.wordpress.com/projects-ids).
 
 ## Compile and run ##
 

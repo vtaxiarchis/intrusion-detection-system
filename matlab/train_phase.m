@@ -1,4 +1,4 @@
-function U = pasad_train(series,N,L)
+function U = train_phase(series,N,L)
 
 close all;
 K = N-L+1;
@@ -38,4 +38,4 @@ for ii= 1:size(series,1)
 end
 fclose(fileID);
 
-disp('Training PASAD is complete. The output is the projection matrix U.');
+disp('Training phase is complete. The output is the projection matrix U.');

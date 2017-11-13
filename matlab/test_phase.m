@@ -1,4 +1,4 @@
-function D = pasad_test(series,N,L,U)
+function D = test_phase(series,N,L,U)
 
 X = hankel(series(1:L),series(L:length(series)));
 T = size(X,2);
